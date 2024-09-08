@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #dbdad9;
+  background-color: #12110a;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #a49c99;
+}
+
+a {
+  color: #dbdad9;
+  text-decoration: none;
+}
+
+button {
+  background-color: #6c646c;
+  color: #dbdad9;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b3a39;
+}
+
+.container {
+ width: 100vw;
+  margin: 0 auto;
+  padding: 20px;
+}

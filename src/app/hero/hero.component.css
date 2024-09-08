@@ -1,0 +1,35 @@
+.cont-1 {
+    text-align: left;
+    background-color: #12110a;
+    color: #dbdad9;
+    padding: 100px 0;
+  }
+  
+  .cont-1 h1 {
+    font-size: 4rem;
+    color: #a49c99;
+  }
+  
+  .cont-1 p {
+    font-size: 1.5rem;
+    color: #9ca49c;
+  }
+  
+  .cont-1 button {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid #6c646c;
+    color: #dbdad9;
+    padding: 10px 30px;
+  }
+  
+  .cont-1 button:hover {
+    background-color: #6c646c;
+    border-color: #a49c99;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

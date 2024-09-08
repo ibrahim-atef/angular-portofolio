@@ -1,0 +1,21 @@
+.container {
+    padding: 80px 0;
+  }
+  
+  h2 {
+    color: #a49c99;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background-color: #3b3a39;
+    color: #dbdad9;
+    border: none;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #a49c99;
+  }
+  

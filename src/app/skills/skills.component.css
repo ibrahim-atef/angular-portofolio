@@ -6,16 +6,31 @@
     color: #a49c99;
   }
   
+  .skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Optional: add some space between the two sections */
+  }
+  
+  .focus-techs {
+    flex: 1;
+    /* Add styles for focus-techs section */
+  }
+  
+  .progress-section {
+    flex: 1;
+  }
+  
   .progress {
     height: 30px;
-    background-color: #6c646c;  
+    background-color: #6c646c;
   }
   
   .progress-bar {
-    background-color: #a49c99;  
+    background-color: #a49c99;
     font-weight: bold;
     font-size: 1rem;
     text-align: center;
-    color: #12110a; 
+    color: #12110a;
   }
   

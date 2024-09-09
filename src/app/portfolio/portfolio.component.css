@@ -12,6 +12,19 @@
     background-color: #3b3a39;
     color: #dbdad9;
     border: none;
+    width: 80%; /* Adjust this value to control the size of the card */
+    padding-bottom: 80%; /* Matches the width percentage to make it square */
+    margin: 0 auto; /* Centers the card horizontally */
+    position: relative; /* Allows positioning of the card body inside */
+    overflow: hidden; /* To handle any overflow */
+  }
+  
+  .card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the content vertically and horizontally */
+    text-align: center;
   }
   
   .card-title {

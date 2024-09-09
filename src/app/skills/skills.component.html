@@ -1,17 +1,19 @@
 <div class="container my-5">
-  <h2>Skills</h2>
+ 
 
-  <div class="container my-5"></div>
-  <div class="progress-section">
-    <div class="progress mb-2">
-      <div class="progress-bar" role="progressbar" style="width: 80%">HTML</div>
+  <div class="skills-container">
+    <div class="focus-techs">
+      <h3>Focus Technologies</h3>
+      <ul>
+        <li *ngFor="let tech of focusTechnologies">{{ tech }}</li>
+ 
+      </ul>
     </div>
-    <div class="progress mb-2">
-      <div class="progress-bar" role="progressbar" style="width: 75%">CSS</div>
-    </div>
-    <div class="progress mb-2">
-      <div class="progress-bar" role="progressbar" style="width: 70%">
-        JavaScript
+    <div class="progress-section">
+      <div *ngFor="let skill of skills" class="progress mb-2">
+        <div class="progress-bar" role="progressbar" [style.width.%]="skill.progress">
+          {{ skill.name }}
+        </div>
       </div>
     </div>
   </div>
